@@ -1,0 +1,22 @@
+{
+  "name": "express-onboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junaidrt/express-onboard.git"
+  },
+  "author": "Junaid Nazir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junaidrt/express-onboard/issues"
+  },
+  "homepage": "https://github.com/junaidrt/express-onboard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
