@@ -8,4 +8,9 @@ router.get("/", (req, res) => {
   res.send(users);
 });
 
+router.post("/", (req, res) => {
+  users.push(req.body);
+  res.send(users);
+});
+
 module.exports = router;
