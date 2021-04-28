@@ -13,4 +13,9 @@ router.post("/", (req, res) => {
   res.send(users);
 });
 
+router.delete("/", (req, res) => {
+  users.pop();
+  res.send(users);
+})
+
 module.exports = router;
