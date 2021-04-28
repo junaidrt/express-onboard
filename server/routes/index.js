@@ -18,4 +18,9 @@ router.delete("/", (req, res) => {
   res.send(users);
 })
 
+router.put("/", (req, res) => {
+  users.push(req.body);
+  res.send(users);
+})
+
 module.exports = router;
