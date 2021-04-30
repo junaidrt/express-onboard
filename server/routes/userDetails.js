@@ -6,4 +6,4 @@ router.get("/:id", (req, res) => {
     res.send(USER_DETAILS.filter(user => user.id >= req.params.id));
 });
 
-module.exports = router;
+export default router;

@@ -23,4 +23,4 @@ router.put("/", (req, res) => {
   res.send(users);
 })
 
-module.exports = router;
+export default router;
